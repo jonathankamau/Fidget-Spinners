@@ -4,5 +4,7 @@
 
 layout: Index
 
-permalink : /Index/
+# permalink: /Index/
+
+
 ---
