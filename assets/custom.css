@@ -1,0 +1,35 @@
+.image img {
+    position:relative;
+    height:auto;
+    max-width:100%;
+    object-fit: contain;
+    overflow:hidden;
+}
+.index-text{
+   color :white;
+   position: absolute; 
+   top: 30%; 
+   left: 40%; 
+}
+.top-bar{
+    /* background-color: black; */
+    color :green;
+    margin:0;
+    padding:0;
+    max-height:2%;
+}
+.social .facebook{
+ color:rgb(0, 61, 230);
+}
+.fa.fa-google-plus{
+    color:red;
+}
+.fa.fa-pinterest{
+    color:rgb(253, 57, 31);
+}
+.fa.fa-search{
+    color:grey;
+}
+.fa.fa-shopping-basket{
+    color:green;
+}
