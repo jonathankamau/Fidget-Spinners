@@ -8,3 +8,4 @@ layout: Index
 
 
 ---
+{% include blog-head.html  %}

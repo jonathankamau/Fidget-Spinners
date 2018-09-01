@@ -5,7 +5,7 @@ title:  "Fidget Spinner"
 
 categories: what is a fidget spinner
 
-permalink : /more/
+permalink : /FIDGET-SPINNERS//more/
 
 ---
 

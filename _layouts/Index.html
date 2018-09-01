@@ -16,7 +16,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../assets/custom.css">
+    {% for files in site.static_files %}
+     {% if file.path contains 'assets/custom.css'%}
+      <link rel="stylesheet" href="{{file.path}}">
+      {% endif %}
+    {% endfor %}
 </head>
 
 <body>
@@ -93,12 +97,16 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="image">
-                        <img src="../assets/images/fidgetSpinner.jpg">
+                     {% for file in site.static_files %}
+                       {% if file.path contains 'assets/images/fidgetSpinner.jpg'%}
+                        <img src="{{file.path}}" alt="Woman with fidget spinner">
+                       {% endif %}
+                     {% endfor %}
                     </div>
                     <div class="index-text">
                         <p>Fidget Spinners</p>
                         <p>A revolutionary new toy that promises hours of fun and stress relief.</p>
-                        <a href="/more/" class="btn btn-success">Read More</a> &nbsp;&nbsp;&nbsp;
+                        <a href="/FIDGET-SPINNERS//more/" class="btn btn-success">Read More</a> &nbsp;&nbsp;&nbsp;
                         <a href="/shop/" class="btn btn-default">Buy Now</a>
                     </div>
                 </div>
