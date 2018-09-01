@@ -1,28 +1,6 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-    <!-- Basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- Mobile Meta -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-    <!-- Site Meta -->
-    <title>Fidget Spinners</title>
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    {% capture styles %}{% include custom.css %}{% endcapture %}
-    <!-- {% for files in site.static_files %}
-        {% if file.path contains 'custom.css' %}
-            <link rel="stylesheet" href="{{ file.path }}">
-        {% endif %}
-    {% endfor %} -->
-</head>
+    {% include blog-head.html %}
 
 <body>
     <header class="header">
