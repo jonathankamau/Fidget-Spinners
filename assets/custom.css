@@ -1,18 +1,14 @@
-.image img {
-    position:relative;
-    height:auto;
-    max-width:100%;
-    object-fit: contain;
-    overflow:hidden;
+body{
+    padding:0;
+    height:100%;
+    background-image: url("images/fidgetSpinner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.index-text{
-   color :white;
-   position: absolute; 
-   top: 30%; 
-   left: 40%; 
+.text-right{
+    padding-right: 0;
 }
 .top-bar{
-    /* background-color: black; */
     color :green;
     margin:0;
     padding:0;
@@ -36,4 +32,17 @@
 .content{
     color:white;
     background-color:black;
+}
+.more-links{
+    margin:auto;
+}
+footer{
+    max-width:98%;
+    background-color: black;
+    color:white;
+    font-size: 110%;
+    position: fixed;
+    bottom:0;
+    overflow:hidden;
+    
 }
