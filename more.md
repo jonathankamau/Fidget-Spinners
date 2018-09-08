@@ -1,0 +1,7 @@
+---
+
+layout: more
+
+permalink: /more/
+
+---
