@@ -4,7 +4,7 @@ title:  "What's a Fidget Spinner"
 
 blog-preview: Fidget spinners" are small, ball-bearing devices that the user can rotate between his or her fingers. The momentum of the toy provides a......
 
-path-to-image: /assets/images/fidget-spinner-on-table.jpg
+path-to-image: ../assets/images/fidget-spinner-on-table.jpg
 
 image-description: white-fidget-spinner-on-table
 
