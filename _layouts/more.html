@@ -7,14 +7,16 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 other-blogs">
-                <h2 class = "title"> {{page.title| upper}} </h2>
+                <div class = "title">
+                    <h2> {{page.title| upper}} </h2>
+                </div>
                 <div class="row">
                     <div class="col-md-12 hidden-sm">
                         {% for post in site.posts %}
                             <h4>{{post.title}}</h4>
                             <div class="blog-preview">
                                {{post.blog-preview}}
-                               <a href="">Continue reading</a> 
+                               <a onclick="change_blog('{{post.blog-number}}')"href="#"> Continue reading </a> 
                             </div>
                             <div class="blog-image">
                                 <img src="{{post.path-to-image}}" alt="{{post.image-description}}">
@@ -25,24 +27,24 @@
             </div>
             <div class="col-md-6 col-xs-12 main-blog">
                 {% for post in site.posts %}
-                    {% if post.blog-number == 1%}
-                        <h3 class="title">{{post.title| upper}}</h3>
-                        <div class="blog-content">
-                            {{post.content}}
+                        <p id="current_blog">
+                            {% if post.blog-number == 1%}
+                        </p>
+                        <div class="title" >
+                            <h3 >{{post.title| upper}}</h3>
+                            <img src="{{post.path-to-image}}" alt="{{post.image-description}}">
                         </div>
-                    {% endif %}
+                            <div class="blog-content">
+                                {{post.content}}
+                            </div>
+                        {% endif %}
                 {% endfor %}
             </div>
         </div>
             {% if page.show_footer %}
                 {% include footer.html %}
             {% endif %}
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
+{% include scripts.html %}
 </body>
 
 </html>

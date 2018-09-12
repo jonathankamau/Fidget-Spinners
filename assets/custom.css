@@ -51,7 +51,15 @@
     overflow:auto;
 
 }
-
+#current_blog{
+    display:none;
+}
+.title img {
+    position: relative;
+    height:80%;
+    width:80%;
+    z-index:1;
+}
 .other-blogs{
     overflow:scroll;
     margin:3%;
@@ -62,6 +70,10 @@
     width:80%;
     margin-left:auto;
 
+}
+
+.blog-image{
+    margin-bottom: 5%;
 }
 footer{
     background-color: black;

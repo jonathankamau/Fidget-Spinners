@@ -7,6 +7,8 @@ blog-preview: To understand how it works, Doherty offered a simple example. "Thi
 path-to-image: ../assets/images/close-up-fidget-spinner-in-motion-4.jpg
 
 image-description: Upclose fidget spinner in motion
+
+blog-number: 3
 ---
 
 Fidget spinners ― kids spin them and spin them ― and while parents may not "get" why the boomerang-shaped toys have caught on with such force, there's real physics to explain how the distracting devices work.

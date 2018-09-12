@@ -7,6 +7,8 @@ path-to-image: ../assets/images/adult-using-fidget-spinner.jpg
 
 image-description: dult-using-fidget-spinner
 
+blog-number: 2
+
 ---
 
 The fidget spinner craze has been sweeping elementary and middle schools. As of May 17, every one of the top 10 best-selling toys on Amazon was a form of the handheld toy people can spin and do tricks with. Kids and parents are even making them for themselves using 3-D printers and other more homespun crafting techniques.
