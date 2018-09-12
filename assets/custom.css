@@ -15,8 +15,7 @@
     background-image: url("images/fidgetSpinner.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    height:500px;
-    resize:both;
+    height:100%;
 }
 .top-bar{
     color :green;
@@ -45,19 +44,34 @@
 }
 .more-links{
     width:40%;
-    margin: 20% 5% 0 40% ;
+    height:100%;
+    margin: 20% 5% 30% 40% ;
+}
+.main-blog{
+    overflow:auto;
+
+}
+
+.other-blogs{
+    overflow:scroll;
+    margin:3%;
+    padding-right:5%;
+}
+.blog-image img{
+    height:80%;
+    width:80%;
+    margin-left:auto;
+
 }
 footer{
     background-color: black;
     color:white;
     font-size: 110%;
-    overflow:hidden;
-    margin:0;
-    position:fixed;
+    position:relative;
     bottom:0;
     
 }
 .text-center{
-    padding:2%;
-    margin-left:30%;
+    padding:1%;
+    margin-bottom:0;
 }
