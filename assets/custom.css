@@ -14,8 +14,9 @@
 .section{
     background-image: url("images/fidgetSpinner.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height:540px;
+    background-size:cover;
+    height:500px;
+    resize:both;
 }
 .top-bar{
     color :green;
@@ -51,7 +52,9 @@ footer{
     color:white;
     font-size: 110%;
     overflow:hidden;
-    margin:auto;
+    margin:0;
+    position:fixed;
+    bottom:0;
     
 }
 .text-center{
