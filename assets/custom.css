@@ -1,0 +1,60 @@
+
+.header{
+    background-color: yellowgreen;
+}
+.navbar{
+    margin: auto;
+    width:50%;
+}
+@media(max-width:968px){
+    .navbar{
+        width:100%;
+    }
+}
+.section{
+    background-image: url("images/fidgetSpinner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:540px;
+}
+.top-bar{
+    color :green;
+    margin:0;
+    padding:0;
+    max-height:2%;
+}
+.social .facebook{
+ color:rgb(0, 61, 230);
+}
+.fa.fa-google-plus{
+    color:red;
+}
+.fa.fa-pinterest{
+    color:rgb(253, 57, 31);
+}
+.fa.fa-search{
+    color:grey;
+}
+.fa.fa-shopping-basket{
+    color:green;
+}
+.content{
+    color:white;
+    background-color:black;
+}
+.more-links{
+    width:40%;
+    margin: 20% 5% 0 40% ;
+}
+footer{
+    background-color: black;
+    color:white;
+    font-size: 110%;
+    overflow:hidden;
+    margin:auto;
+    
+}
+.text-center{
+    padding:2%;
+    margin-left:30%;
+}
