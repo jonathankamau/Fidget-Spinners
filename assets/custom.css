@@ -87,3 +87,10 @@ footer{
     padding:1%;
     margin-bottom:0;
 }
+.product {
+    margin-bottom:1%;
+}
+.product-details{
+    text-align: center;
+    color:green;
+}

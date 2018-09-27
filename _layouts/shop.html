@@ -5,7 +5,22 @@
 <body>
     {% include header.html %}
     <div class="container-fluid">
-        
+        <div class="row">
+                {% for product in site.products %}
+                <div class="col-md-4 product">
+                    <div class="product-image">
+                        <img src="{{product.path-to-image}}">
+                    </div>
+                    <div class="product-details">
+                        <p>{{product.name}}
+                            <br> {{product.price}}
+                            <br>
+                        </p>
+                        <button class="btn btn-default">Buy Now</button>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
     </div>
         
         {% if page.show_footer %}
