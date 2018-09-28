@@ -69,4 +69,4 @@ The mail function uses [formspree.io](https://formspree.io/)
 
 ### Licence
 
-This project is licenced under MelvinAtieno licence. See [Licence.md](https://github.com/Melvin1Atieno/Fidget-Spinners/blob/master/licence.md) for more details.
+This project is licenced under MIT licence. See [Licence.md](https://github.com/Melvin1Atieno/Fidget-Spinners/blob/master/licence.md) for more details.
