@@ -97,3 +97,23 @@ footer{
     text-align: center;
     color:green;
 }
+.selected-spinner{
+    margin:2% 30% 3% 30%;
+}
+.product-price{
+    color:blue;
+    text-align: center;
+    font-weight: bolder;
+}
+.delivery-info{
+    color:black;
+    font-weight: bolder;
+
+}
+.id{
+    display: none;
+}
+.back{
+    margin:5% 4% 5% 40%;
+    font-size: 150%;
+}

@@ -22,6 +22,7 @@
      {% assign depth = page.url | split: '/' | size | minus: 1 %}
      {% if depth<1 %}{% assign base='.'%}
      {% elsif depth==1 %}{% assign base='..' %}
+     {% elsif depth==2 %}{% assign base='...' %}
      {% endif %}
      <link rel="stylesheet" href="{{base}}/assets/custom.css"/>
 </head>
