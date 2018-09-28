@@ -1,6 +1,8 @@
 ---
 title:  "Fidget Spinners For Adults"
 
+layout: more
+
 blog-preview: Psychology research about sensation seeking tells us that people often seek to adjust their experiences and their environments so that they provide just the right level of stimulation. Different people function......
 
 path-to-image: ../assets/images/adult-using-fidget-spinner.jpg
@@ -8,6 +10,8 @@ path-to-image: ../assets/images/adult-using-fidget-spinner.jpg
 image-description: dult-using-fidget-spinner
 
 blog-number: 2
+
+permalink: /forAdults/
 
 ---
 
