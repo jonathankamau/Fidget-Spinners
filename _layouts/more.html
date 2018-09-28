@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+{% include blog-head.html %}
+
+<body>
+    {% include header.html %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 other-blogs">
+                <div class = "title">
+                    <h2> {{page.title| upper}} </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 hidden-sm">
+                        {% for post in site.posts %}
+                            <h4>{{post.title}}</h4>
+                            <div class="blog-preview">
+                               {{post.blog-preview}}
+                               <a href="..{{post.permalink}}"> Continue reading </a> 
+                            </div>
+                            <div class="blog-image">
+                                <img src="{{post.path-to-image}}" alt="{{post.image-description}}">
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xs-12 main-blog">
+                <div class="title" >
+                    <h3 class="heading">{{page.title| upper}}</h3>
+                    <img src="{{page.path-to-image}}" alt="{{page.image-description}}">
+                </div>
+                <div class="blog-content">
+                    {{page.content}}
+                </div>
+            </div>
+        </div>
+            {% if page.show_footer %}
+                {% include footer.html %}
+            {% endif %}
+    </div>
+{% include scripts.html %}
+</body>
+
+</html>
