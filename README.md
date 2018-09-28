@@ -1,11 +1,12 @@
 
 # Fidget-Spinners
-
-    A static site build using [jekyll](https://jekyllrb.com/) for a revolutionary new toy that promises  hours of fun and stress relief.
+A static site build using [jekyll](https://jekyllrb.com/)
+A Fidget spinner is  a revolutionary new toy that promises  hours of fun and stress relief.
 
 ## Getting Started
 
-    To get started, either [clone or download](https://github.com/Melvin1Atieno/Fidget-Spinners.git) on your local machine.
+To get started, either [clone or download](https://github.com/Melvin1Atieno/Fidget-Spinners.git) 
+on your local machine.
 
 ## DEMO
 
@@ -25,19 +26,19 @@ The following are guidelines to have the project working locally:
 
 1. Install ruby
 
-   Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/) 
+Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
 
 2. Install jekyll and bundler gems
 
-   Install jekyll and [bundler gems](https://jekyllrb.com/docs/ruby-101/#gems)
+Install jekyll and [bundler gems](https://jekyllrb.com/docs/ruby-101/#gems)
 
 3. Change into director
-   
-   cd into Fidget-Spinners Directory
+
+cd into Fidget-Spinners Directory
 
 4. Build the site and make it available on a local server
 
-   bundle exec jekyll serve
+bundle exec jekyll serve
 
 6. Now browse to [http://localhost:4000/](http://localhost:4000)
 
