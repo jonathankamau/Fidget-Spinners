@@ -63,10 +63,10 @@ The mail function uses [formspree.io](https://formspree.io/)
 
 1. Fork the repository
 2. Create a detailed PR aginst Develop branch stating:
-    -What the PR does.
-    -How to test it.
-    -images of the changes where applicable
+   -What the PR does.
+   -How to test it.
+   -images of the changes where applicable
 
 ### Licence
 
-This project is licenced under MelvinAtieno licence. See [Licence.md](https://github.com/Melvin1Atieno/Fidget-Spinners/blob/master/licence.md) for more details.
+This project is licenced under MIT licence. See [Licence.md](https://github.com/Melvin1Atieno/Fidget-Spinners/blob/master/licence.md) for more details.
