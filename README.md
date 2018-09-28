@@ -63,9 +63,9 @@ The mail function uses [formspree.io](https://formspree.io/)
 
 1. Fork the repository
 2. Create a detailed PR aginst Develop branch stating:
-    -What the PR does.
-    -How to test it.
-    -images of the changes where applicable
+   -What the PR does.
+   -How to test it.
+   -images of the changes where applicable
 
 ### Licence
 
