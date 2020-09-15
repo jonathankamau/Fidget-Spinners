@@ -11,7 +11,7 @@ on your local machine.
 ## DEMO
 
 The site is hosted on github pages
-[CLICK HERE](https://melvin1atieno.github.io/Fidget-Spinners/) to get a feel.
+[CLICK HERE](https://personal-projects-1d508.web.app/) to get a feel.
 
 ### Prerequisites
 

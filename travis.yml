@@ -1,0 +1,31 @@
+language: ruby
+
+addons:
+  apt:
+    packages:
+    - libcurl4-openssl-dev # required to avoid SSL errors
+
+rvm:
+  - 2.6.2
+
+branches:
+  only:
+    - develoment
+    - master
+
+install:
+  - gem install bundler
+  - bundle check || bundle install
+
+script:
+  - bundle exec jekyll build
+
+deploy:
+  skip_cleanup: true
+  provider: firebase
+  token:
+    # gem install travis
+    # travis encrypt "1//03VWqbL4tkzRM......"
+    secure: aYvT8skyjn11FQP6JUBEKL1wht6RG6p7BFSxA4X8ei37azPSp+vXIM69llVCIy/j7ijx6dqLUhIp1NLpH3OZ0x/mYevrS089vpo9K3Y1qsFDSBzaJLrQGAqOtRfgh5FBh1a74lx7rA1GW/zs5VgF4qG0jX7m22Tc53C/T09d0G0oha4ugDosjn7563Az+VsXRM9IMl5IOLcJWBt6nlx8Va3s7xuz/WcjU1+53G3NgB2lCfxNbyQF3vTf2a4CH/UYsquTch9/oKPzLRSvFlgj2VEIOfLbI4ajSBwb9Szt/yB/wFKqt7S7bVqqiVAlI8ZJYpFYN3rjJ9oyjC18xHWQNSeU51y03wexH8+8baVqbzV5NXVCu3MY0yp6zYLH0QpJof1+9ie2Bpe5eBkRMFD0Joatd8n8T71oCbf11GTGZsac0sjE1nKq6NLJg/O8yBO4IK9tv8JKRhO+XOQUqRMrLUGKj7SYpHKfcmC+xBG1JB0W+8qmtjl20pVppGvHseJlQWxH/pRhiDfcoSmfPiMGDUaZE76Kz75GkOYSg38stOStyZKP+AN92TJDp+bPprIMPkqzh0OsoeaHthXV9gxgvmDF5toIpDvr4qND7PdkxzL4IfXzL109ppdu2OyOvJMxaz/kqmrzKhmS/Arebt5/Ema7mHpwhh1X5LZclvm/9b0=
+  on:
+    branch: master
