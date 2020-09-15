@@ -6,23 +6,13 @@
     <!-- Mobile Meta -->
     <meta name="description" content="{{ site.description }}">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
+    <link rel="icon" href="/assets/favicon.ico" />
     <!-- Site Meta -->
     <title>{% if page.title %} 
                 {{ page.title }}
-            {% else %} {{ site.title }}
+            {% else %} 
+                {{ site.title }}
             {% endif %}
     </title>
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     {% assign base = '' %}
-     {% assign depth = page.url | split: '/' | size | minus: 1 %}
-     {% if depth<1 %}{% assign base='.'%}
-     {% elsif depth==1 %}{% assign base='..' %}
-     {% elsif depth==2 %}{% assign base='...' %}
-     {% endif %}
-     <link rel="stylesheet" href="{{base}}/assets/custom.css"/>
+    {% include styles.html %}
 </head>

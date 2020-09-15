@@ -1,20 +1,10 @@
 ---
-
 title:  "What's a Fidget Spinner"
-
 layout: more
-
 blog-preview: Fidget spinners" are small, ball-bearing devices that the user can rotate between his or her fingers. The momentum of the toy provides a......
-
 path-to-image: ../assets/images/fidget-spinner-on-table.jpg
-
 image-description: white-fidget-spinner-on-table
-
 blog-number: 1
-
-permalink: /what/
-
-
 ---
 
 Fidget spinners" are small, ball-bearing devices that the user can rotate between his or her fingers. The momentum of the toy provides a pleasing sensory experience.This season's hottest toy is marketed as an antidote for attention deficit hyperactivity disorder, anxiety and autism.They’re called fidget spinners. For the uninitiated, a fidget spinner is a gadget about the size of a drink coaster, with a bearing in the middle that allows it to spin. They’re generally made of metal or plastic and feature two or three prongs that blur, entrancingly, as they twirl. Fidget spinner retail prices range from a few bucks to well into the hundreds.

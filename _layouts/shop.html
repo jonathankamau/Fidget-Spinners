@@ -15,17 +15,14 @@
                         <br> {{product.price}}
                         <br>
                     </p>
-                    <a href='..{{product.permalink}}'><button type="button"class="btn btn-default" 
+                    <a href='{{product.url}}'><button type="button"class="btn btn-default" 
                     >Buy Now</button></a>
                 </div>
             </div>
             {% endfor %}
         </div>
     </div>
-    
-    {% if page.show_footer %}
-        {% include footer.html %}
-    {% endif %}
+    {% include footer.html %}
     {% include scripts.html %}
 </body>
 

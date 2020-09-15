@@ -16,10 +16,10 @@
                             <h4>{{post.title}}</h4>
                             <div class="blog-preview">
                                {{post.blog-preview}}
-                               <a href="..{{post.permalink}}"> Continue reading </a> 
+                               <a href="{{post.url}}"> Continue reading </a> 
                             </div>
                             <div class="blog-image">
-                                <img src="{{post.path-to-image}}" alt="{{post.image-description}}">
+                                <img src="/{{post.path-to-image}}" alt="{{post.image-description}}">
                             </div>
                         {% endfor %}
                     </div>
@@ -28,16 +28,15 @@
             <div class="col-md-6 col-xs-12 main-blog">
                 <div class="title" >
                     <h3 class="heading">{{page.title| upper}}</h3>
-                    <img src="{{page.path-to-image}}" alt="{{page.image-description}}">
+                    <img src="/{{page.path-to-image}}" alt="{{page.image-description}}">
                 </div>
                 <div class="blog-content">
                     {{page.content}}
                 </div>
             </div>
         </div>
-            {% if page.show_footer %}
-                {% include footer.html %}
-            {% endif %}
+        {% include footer.html %}
+
     </div>
 {% include scripts.html %}
 </body>
